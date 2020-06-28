@@ -1,0 +1,384 @@
+
+*,
+*:before,
+*:after {
+	  box-sizing: inherit;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+html {
+	box-sizing: border-box;
+	height:100%;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background:#ffcf09;
+	position: relative;
+	margin: 0;
+	min-height: 100%;
+}
+
+a {
+    color: #b70800;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color:#000000;
+}
+
+.btn {
+    border-radius:0;
+    margin-bottom: 3px;
+}
+
+.btn-primary, 
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.active:active {
+    color: #fff;
+    background-color: #ed1c24;
+    border-color: #bd0303;
+    outline:none;
+}
+
+#body-wrapper {
+	background: #fafafa;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#logo {
+	padding:10px 40px;
+	text-align:center;
+    width: 250px;
+    margin: 0 auto;	
+}
+
+#app-logo {
+    padding:10px;
+    width: 180px;
+    margin: 0 auto;    
+    padding-bottom:0;
+    padding-top:30px;
+}
+
+#app-logo img {
+        margin:0 auto;
+}
+
+#app-title {
+	font-weight: bold;
+	margin-top:40px;
+	font-size: 34px;
+	color: #000;
+}
+
+#photo-banner {
+	text-align: center;
+	position: relative;
+}
+
+input#search-number {
+	width:400px;
+	padding:10px 20px;
+	font-weight:bold;
+	font-size:24px;
+	border: none;
+	box-shadow: 2px 5px 8px rgba(0,0,0,0.2);
+}
+
+input#submit-search {
+	background: #d50b0e;
+	font-size:24px;
+	color: #fff;
+	padding:10px 20px;
+	border:none;
+	box-shadow: 2px 5px 8px rgba(0,0,0,0.2);
+}
+
+#search-result ul {
+	margin:0;
+	padding:0;
+}
+
+#search-result ul li {
+	list-style-type: none;
+	margin-top:10px;
+	width: 210px;
+	float: left;
+	margin-right:10px;
+}
+
+#search-result .number-item {
+	list-style:none;
+	font-size:24px;
+	font-weight: bold;
+	padding:5px;
+	text-align:center;
+}
+
+#search-result .number-item a:hover {
+	background:yellow;
+	text-decoration: none;
+}
+
+#search-result ul.nav li:hover {
+	background-color: transparent;
+}
+
+#search-result ul.nav li:hover h3 {
+	background-color: yellow;
+	color:#666666;
+}
+
+#search-result ul.nav li:active h3 {
+	background-color: yellow;
+	color:#666666;
+}
+
+#cart-content {
+	position: absolute;
+	top:100px;
+	left:0;
+}
+
+#cart-content ul li {
+	list-style-type: none;
+	margin-top:10px;
+}
+
+
+.form-control {
+    background-color: #6d6d6d;
+    border: none;
+    border-bottom: 1px solid #ccd0d2;
+    box-shadow: none;
+	box-shadow: none;
+    border-radius: 0;
+    color:#f2f2f2;   
+}
+
+.table {
+	background: #f3f3f3;
+}
+
+.table-bordered>thead>tr>td, 
+.table-bordered>thead>tr>th {
+	border-bottom-width:0px;
+    background: grey;
+    background: -webkit-linear-gradient(#e6e6e6, #d2d2d2);
+    background: -o-linear-gradient(#e6e6e6, #d2d2d2);
+    background: -moz-linear-gradient(#e6e6e6, #d2d2d2);
+    background: linear-gradient(#e6e6e6, #d2d2d2);
+    border-color: #ffffff;
+    text-align: center;
+}
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+	vertical-align: middle;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #fdde00;
+}
+
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #da251d;
+    border: none;
+    border-radius: 0;
+    box-shadow: none; 
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.well h3 {
+	margin: 0;
+	font-weight: bold;
+	background: #da251d;
+	padding: 10px;
+	color: #ffffff;
+}
+
+#registration-data .btn.active {
+    padding: 1px 8px;
+    background: #c1c1c1;
+    box-shadow: none;
+    color: #545454;
+    font-weight: bold;
+    border: 1px solid #969696;	
+}
+
+.registration #header h1 {
+	margin-top:0 !important;
+}
+
+#footer {
+	padding: 1rem;
+	text-align: center;
+}
+
+.tab-content {
+	padding-top:20px;
+}
+
+a.number-item {
+    display: inline-block;
+    width: 210px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+	background: #d50b0e;
+	font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;     
+    margin-right:10px;
+	border-radius: 30px;
+	color: #fff;
+}
+
+.shopping-cart .well {
+	background: #f2f2f2;
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:3px;
+    min-height: 89px;
+    text-align: left;
+}
+
+.shopping-cart .well h3 {
+	background: #f2f2f2;
+}
+
+#info-stat .info-title {
+	position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #bbbbbb;
+    font-size: 12px;	
+}
+
+#info-stat .info-value {
+	font-size:50px;
+	font-weight: bold;
+	color:#fdde00;
+}
+
+.nav>li>a:focus, 
+.nav>li>a:hover {
+	background-color: transparent;
+}
+
+#confirm-select h3 {
+	text-align: center;
+}
+
+#show-cart h3 {
+    border: 1px solid #b2b2b2;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    background: #fdde00;
+    color: #c30800;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+.shopping-items h3 {
+	margin:0;
+	background:none;
+	color:#ffdf00;
+}
+
+#reg-url {
+	word-wrap: break-word;
+}
+
+.modal-content {
+	border-radius:0;
+	background: #e2e2e2;
+	border:none;
+}
+
+.modal-footer {
+	border:none;
+}
+
+.modal-header {
+    background: #c30800;
+    color: #ffffff;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+	h1.title {
+		font-size:18px;
+	}
+
+	#footer {
+		height:50px;
+		background-size: 100% 40px;
+		background-repeat: no-repeat;
+	}
+
+	.registration input.form-control {
+		border-radius: 0;
+		padding: 20px;
+	}
+
+	.registration .form-group {
+		margin-bottom:5px;
+	}
+
+	.registration .form-group:last-child {
+		margin-top:10px;
+	}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

@@ -1,0 +1,177 @@
+body {
+    background: #e2e2e2;
+}
+
+h1.page-title {
+    font-size: 32px;
+}
+
+.form-control {
+    padding: 10px;
+    font-size:16px;
+    font-weight:bold;
+    border:none;
+    border-bottom:1px solid #e2e2e2;
+}
+select.form-control:not([size]):not([multiple]) {
+    height:auto;
+}
+.form-title {
+    display: inline-block;
+    font-size: 34px;
+    margin-top:10px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+#registration-page .success-icon {
+    font-size: 226px;
+    position: absolute;
+    top: -120px;
+    right: -20px;
+    color: #6aa806;
+}
+
+#postpaid-registration {
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+#postpaid-registration .form-group {
+    margin-bottom:0;
+}
+
+#postpaid-registration .btn-primary {
+    width: 100%;
+    background: #df0000;
+    border: none;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+}
+
+#postpaid-registration .btn-success,
+#postpaid-registration .btn-secondary {
+    width: 100%;
+    border: none;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+}
+
+#postpaid-registration .package-icon {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    color: #fff;
+    margin-right:5px;
+}
+
+#postpaid-registration .package-icon.package-icon-l {
+    background: linear-gradient(to right, #dd5c33, #eb9f35);
+}
+
+#postpaid-registration .package-icon.package-icon-xl {
+    background: linear-gradient(to right, #7e1d4a, #c65988);
+}
+
+#postpaid-registration .package-icon.package-icon-xxl {
+    background: linear-gradient(to right, #0ca69e, #89c9c0)
+}
+
+#postpaid-registration .package-icon.package-icon-xxxl {
+    background: linear-gradient(to right, #bf9500, #dec114)
+}
+
+#postpaid-registration .radio input[name="package"] {
+    display: none;
+}
+
+#postpaid-registration .radio label h3 {
+    font-size:20px;
+}
+
+#postpaid-registration .radio {
+    margin-bottom:10px;
+    padding:5px;
+}
+
+#postpaid-registration .radio.package-select {
+    background: #d2efb5;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+#postpaid-registration table tr td h3 {
+    color: #000;
+}
+
+#postpaid-registration table tr td .price {
+    color: #f70000;
+    font-weight:bold;
+}
+
+#postpaid-registration table tr td .fa {
+    font-size:24px;
+    font-weight:bold;
+}
+
+#postpaid-registration table tr td ul {
+    padding:0;
+    margin:0;
+}
+
+#postpaid-registration table tr td ul li {
+    padding:0;
+    margin:0;
+    list-style-position:inside;
+}
+
+#tos ol {
+    margin:0;
+    padding:10px 20px;
+    text-align: justify;
+}
+
+#tos ol li {
+    margin-bottom:10px;
+}
+
+#tos {
+    height:400px;
+    overflow-y: scroll;
+}
+
+#postpaid-registration .form-check {
+    margin:20px 10px;
+}
+#postpaid-registration .form-check-input {
+    margin-left:0;
+}
+
+#postpaid-registration ul.status-process {
+    padding:0;
+    margin:10px;
+}
+
+#postpaid-registration ul.status-process li {
+    margin-bottom:10px;
+    padding:5px;
+    padding-left:10px;
+    list-style-type: none;
+}
+
+#postpaid-registration ul.status-process li .status-text {
+    font-size:20px;
+}
+
+#postpaid-registration ul.status-process li .status-time {
+    font-size: 12px;
+}

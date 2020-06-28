@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Ooredoo-Heavy;
+    src: url(/fonts/Ooredoo-Heavy.otf);
+}
+
+body {
+    font-family: Ooredoo-Heavy;
+    font-size: 12px;
+    color:#666;
+}
+
+.font-roboto {
+    font-family: Roboto;
+    font-size:12px;
+}
+
+.title {
+    padding:7px 0 7px 0;
+    font-size:12px !important;
+}
+.border-rounded {
+    border-radius:7px;
+}
+
+.tabs .tab a{
+    color:#555;
+    font-weight:bold;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#eee;
+    color:#555;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+    background-color:#e1e1e1;
+    color:#555;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color:rgb(202, 166, 6);
+} /*Color of underline*/
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: #e1e1e1;
+    outline: none;
+}
+
+.icon-stars {
+    position:relative;
+    right:-10px;
+    top:-30px;
+}
+.badge-stars {
+    position:absolute;
+    top:4px;
+    right:12px;
+    color:#fff;
+}
+.input-field input[type=text] {
+    font-size: 12px;
+    color:#666;
+    font-family: Ooredoo-Heavy;
+}
+.input-field textarea {
+    font-size: 12px;
+    color:#666;
+    font-family: Ooredoo-Heavy;
+  }

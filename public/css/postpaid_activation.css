@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: whitesmoke;
+}
+
+h1 {
+    font-size:30px;
+    color: #8c8c8c;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.card {
+    border: none;
+}
+
+.custom-radio {
+    border: 1px solid #e2e2e2;
+    padding:5px 10px;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+
+.custom-radio label {
+    margin: 0;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.active:active {
+    color: #fff;
+    background-color: #ed1c24;
+    border-color: #bd0303;
+    outline:none;
+}
+
+input[type=radio]:checked {
+    background: red;
+}
+
+#footer {
+    text-align: center;
+    padding:10px;
+    font-size:14px;
+}

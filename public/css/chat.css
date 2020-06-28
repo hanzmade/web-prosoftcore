@@ -1,0 +1,49 @@
+.circle-chat {
+  height: 60px;
+  width: 60px;
+  background-color: rgba(38, 0, 255, 0.726);
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+.circle-chat:hover{
+  background-color: rgb(38, 0, 255);
+  border: solid 1px rgb(38, 0, 255);
+  border-radius:100px;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.center
+{
+  font-size:100px;
+  position: absolute;
+  padding-top: 12px;
+  right: 15px;
+  font-size:30px!important;
+}
+
+.center-things-chat-badge {
+  height: 0%;
+  top: -10%;
+  left: -60%;
+  position: absolute; 
+}
+  
+.center-things-chat-badge p {
+  margin: 0;
+  background: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+@keyframes example {
+  0%   {right:100px;}
+  100% {right:50px;}
+}
