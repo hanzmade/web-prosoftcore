@@ -373,56 +373,56 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-              <a href="/img/gallery/gallery-2.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-2.png" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-2.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-              <a href="/img/gallery/gallery-3.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-3.png" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-3.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-              <a href="/img/gallery/gallery-4.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-7.jpeg" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-7.jpeg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-              <a href="/img/gallery/gallery-5.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-8.jpeg" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-8.jpeg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-              <a href="/img/gallery/gallery-6.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-6.jpeg" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-6.jpeg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-              <a href="/img/gallery/gallery-7.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-4.png" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-4.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-              <a href="/img/gallery/gallery-8.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-5.jpeg" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-5.jpeg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
