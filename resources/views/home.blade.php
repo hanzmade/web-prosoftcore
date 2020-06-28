@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>PROSOFTCORE</title>
+  <title>Hanif Ramadhan - Resume</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <!-- Favicons -->
-  <link href="/images/Logo ProSoftCore NoBG.png" rel="icon">
+  <link href="" rel="icon">
   <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -37,7 +37,7 @@
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center">
     
-    <img src="/images/Logo ProSoftCore NoBG.png" alt="" class="img-fluid"> <span style="color:white">PROSOFTCORE</span></img>
+    <img src="" alt="" class="img-fluid"> <span style="color:white">MY RESUME</span></img>
       <div class="logo mr-auto">
         <!-- Uncomment below if you prefer to use an image logo -->
         <!--<h5 class="text-light"><a href="/"><span>Probolinggo Software Core</span></a></h5>-->
@@ -48,8 +48,9 @@
           <li class="active"><a href="/">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#service">Service</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#me">Detail About Me</a></li>
+          <!--
           <li><a href="#pricing">Pricing</a></li>
           <li class="drop-down"><a href="">Project</a>
             <ul>
@@ -62,11 +63,11 @@
                   <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
-              </li>
+              </li> 
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
-            </ul>
+            </ul> -->
           </li>
           <li><a href="#contact">Contact</a></li>
 
@@ -83,16 +84,17 @@
       <div class="row">
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
-            <h1>PROSOFTCORE</h1>
-            <h2><span style="font-size:20px">Professional Software Core</span></h2>
+            <h1>HANIF RAMADHAN</h1>
+            <h2><span style="font-size:20px">Fullstack Developer (Laravel, CSS, MySQL, PLC, SCADA, HMI)</span></h2>
             
             <div class="text-center text-lg-left">
-              <a href="#about" class="btn-get-started scrollto">Get Started</a>
+              <a href="https://wa.me/6282232693426" class="btn-get-started scrollto">Hire Me</a>
+              <a href="https://www.linkedin.com/in/hanif-ramadhan-74204a165" class="btn-get-started scrollto">Who Am I ?</a>
             </div>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="/images/icon programming.png" class="img-fluid animated" alt="">
+          <img src="" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -121,42 +123,26 @@
       <div class="container-fluid">
 
         <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          <div class="col-xl-5 col-lg-6  d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+            <a href="https://youtu.be/yJ3cUe5cS1Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
             <h3>ABOUT</h3>
-            <p>Professional Software Core develop Web App and Mobile App for all kind of system.</p>
+            <p>Saya adalah seorang karyawan swasta di sebuah perusahaan kontraktor Automation di tangerang. Saya bekerja pada posisi Fullstack Programmer yang memiliki
+               tanggung jawab untuk mengembangkan Software Web Application (Laravel) + Desain, Software PLC,SCADA,HMI Beijer, serta meng-integrasi sistem dari Field
+               sampai Cloud (Server, Database)</p>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon"><i class="bx bxl-android"></i></div>
               <h4 class="title"><a href="">Android Application</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <p class="description">Realtime Monitoring, koneksi dengan Database melalui API, dll</p>
             </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bx bxl-apple"></i></div>
-              <h4 class="title"><a href="">iOS Application</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-
+            
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class="bx bx-code"></i></div>
               <h4 class="title"><a href="">Web Application</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-microchip"></i></div>
-              <h4 class="title"><a href="">Microcontroller</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bxs-factory"></i></div>
-              <h4 class="title"><a href="">Factory Automation</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <p class="description">Realtime Monitoring, Pengumpulan Data, Pembuatan Report (Excel, PDF), Dashboard Monitoring, dll</p>
             </div>
 
           </div>
@@ -222,30 +208,6 @@
               <h3><a href="">(Android) Company Profile</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
-              <i class="ri-apple-fill" style="color: #b2904f;"></i>
-              <h3><a href="">(iOS) Design</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
-              <i class="ri-dashboard-2-line" style="color: #b20969;"></i>
-              <h3><a href="">(iOS) Real-time Monitoring</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
-              <i class="ri-shopping-bag-2-line" style="color: #ff5828;"></i>
-              <h3><a href="">(iOS) E-Commerce</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-              <i class="ri-profile-fill" style="color: #29cc61;"></i>
-              <h3><a href="">(iOS) Company Profile</a></h3>
-            </div>
-          </div>
         </div>
 
       </div>
@@ -260,7 +222,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
               <i class="icofont-tick-mark"></i>
-              <span data-toggle="counter-up">232</span>
+              <span data-toggle="counter-up">2</span>
               <p>Finish Project</p>
             </div>
           </div>
@@ -268,7 +230,7 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="icofont-code"></i>
-              <span data-toggle="counter-up">521</span>
+              <span data-toggle="counter-up">2</span>
               <p>On progress Project</p>
             </div>
           </div>
@@ -276,7 +238,7 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="icofont-simple-smile"></i>
-              <span data-toggle="counter-up">1,463</span>
+              <span data-toggle="counter-up">0</span>
               <p>Accepted Project</p>
             </div>
           </div>
@@ -284,7 +246,7 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="icofont-file-alt"></i>
-              <span data-toggle="counter-up">15</span>
+              <span data-toggle="counter-up">0</span>
               <p>Bidding Project</p>
             </div>
           </div>
@@ -391,12 +353,12 @@
     </section><!-- End Details Section -->
 
     <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
+    <section id="portofolio" class="gallery">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Gallery</h2>
-          <p>Check our Gallery</p>
+          <h2>Portofolio</h2>
+          <p>Check my Gallery</p>
         </div>
 
         <div class="row no-gutters" data-aos="fade-left">
@@ -471,6 +433,7 @@
     </section><!-- End Gallery Section -->
 
     <!-- ======= Testimonials Section ======= -->
+    <!--
     <section id="testimonials" class="testimonials">
       <div class="container">
 
@@ -534,17 +497,18 @@
         </div>
 
       </div>
+      -->
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <section id="me" class="team">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>Our Great Team</p>
+          <h2>Me</h2>
+          <p>I'm, </p>
         </div>
-
+<!--
         <div class="row" data-aos="fade-left">
 
           <div class="col-lg-3 col-md-6">
@@ -562,18 +526,17 @@
               </div>
             </div>
           </div>
-
+-->
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="member" data-aos="zoom-in" data-aos-delay="200">
               <div class="pic"><img src="/img/team/hanif.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Hanif Ramadhan</h4>
-                <span>Chief Technology Officer (Web Developer & Database)</span>
+                <span>Fullstack Developer (Laravel, CSS, MySQL, Android Studio, </span>
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://wa.me/6282232693426"><i class="icofont-whatsapp"></i></a>
+                  <a href="https://www.instagram.com/hanif_ram/"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/hanif-ramadhan-74204a165"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -617,6 +580,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
+    <!--
     <section id="pricing" class="pricing">
       <div class="container">
 
@@ -699,9 +663,11 @@
         </div>
 
       </div>
+      -->
     </section><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
+    <!--
     <section id="faq" class="faq section-bg">
       <div class="container">
 
@@ -761,6 +727,7 @@
         </div>
 
       </div>
+      -->
     </section><!-- End F.A.Q Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -769,7 +736,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Contact</h2>
-          <p>Contact Us</p>
+          <p>Contact Me</p>
         </div>
 
         <div class="row">
@@ -779,25 +746,19 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>Tangerang, Banten</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+6282232693426</p>
               </div>
 
             </div>
 
           </div>
-
+<!--
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
@@ -828,7 +789,7 @@
             </form>
 
           </div>
-
+-->
         </div>
 
       </div>
@@ -842,64 +803,28 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-12 col-md-12">
             <div class="footer-info">
-              <h3>Bootslander</h3>
-              <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+              <h3>Hanif Ramadhan's Resume</h3>
+              <p class="pb-3"><em></em></p>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Tangerang <br>
+                Banten<br><br>
+                <strong>Phone:</strong> +6282232693426<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/6282232693426" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.instagram.com/hanif_ram/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hanif-ramadhan-74204a165" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
