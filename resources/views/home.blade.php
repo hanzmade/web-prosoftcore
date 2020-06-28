@@ -365,8 +365,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-              <a href="/img/gallery/gallery-1.jpg" class="venobox" data-gall="gallery-item">
-                <img src="/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="/img/gallery/gallery-1.png" class="venobox" data-gall="gallery-item">
+                <img src="/img/gallery/gallery-1.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
