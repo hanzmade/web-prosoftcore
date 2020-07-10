@@ -74,7 +74,7 @@
       align: center;
     }
  
-    .container-fluid {
+    .container-fluidss {
       overflow: scroll;
     }
     
@@ -466,7 +466,7 @@
 
     <!-- ======= Data Table Section ======= -->
     <section id="datatable" class="about">
-      <div class="container-fluid">
+      <div class="container-fluidss">
         <div class="row">
         <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
           <h3>DATA TABLE</h3>
