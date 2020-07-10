@@ -1154,16 +1154,20 @@
         <script src="/js/buttons.html5.min.js"></script>
         <script src="/js/buttons.print.min.js"></script>
         <script src="/js/bootstrap-datepicker.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/rowreorder/1.2.7/js/dataTables.rowReorder.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js"></script>
         <script type="text/javascript">
-              $('#example').DataTable( {
-                  responsive: true,
-                  rowReorder: {
-                      selector: 'td:nth-child(2)'
-                  },
-                  dom: 'Bfrtip',
-              buttons: [
-                  'copy', 'excel', 'pdf', 'csv'
-              ]
+          $('#example').DataTable( {
+            responsive: true,
+            rowReorder: {
+              selector: 'td:nth-child(2)'
+            },
+            dom: 'Bfrtip',
+            buttons: [
+              'copy', 'excel', 'pdf', 'csv'
+            ]
           } );
               
         </script>
