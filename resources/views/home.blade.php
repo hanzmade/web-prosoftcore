@@ -471,6 +471,10 @@
         <div class="row-table">
           <div class="panel-group" id="all-data-table" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading-all-data-table">
+              </div>
+              <div>
+                <div class="panel-body">
                 <table id="example" class="table table-striped table-bordered nowrap" style="width:100%">
                   <thead>
                       <tr>
@@ -951,6 +955,8 @@
                       </tr>
                   </tfoot>
               </table>
+              </div>
+              </div>
             </div>
           </div>
         </div>
