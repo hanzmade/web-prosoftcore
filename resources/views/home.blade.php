@@ -72,6 +72,10 @@
     .row-table {
       align: center;
     }
+
+    .scrolling-table {
+      overflow: scroll;
+    }
     
   </style>
 
@@ -469,7 +473,7 @@
 
     <!-- ======= Data Table Section ======= -->
     <section id="datatable" class="about">
-      <div class="container-fluid">
+      <div class="container-fluid scrolling-table">
         <script src="https://code.highcharts.com/highcharts.js"></script>
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
