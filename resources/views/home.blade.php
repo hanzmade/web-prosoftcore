@@ -480,7 +480,7 @@
               <div class="panel-heading" role="tab" id="heading-all-data-table">
                 <h4 class="panel-title">
                   <a role="button" data-toggle="collapse" data-parent="#all-data-table" href="#collapse-all-data-table" aria-expanded="true" aria-controls="collapse-all-data-table">
-                    Collapsible Group Item #1
+                    CLICK HERE TO SHOW TABLE
                   </a>
                 </h4>
               </div>
