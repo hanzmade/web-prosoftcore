@@ -19,7 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 */
 Route::get('/get_all', 'APIController@index');
-Route::get('/get_monthly', 'APIController@index_monthly');
+Route::get('/api/get_monthly', 'APIController@index_monthly');
 Route::get('/get_trending/{year}/{month}/{location}/{ip}', 'APIController@trending');
 Route::get('/get_stand_comparison', 'APIController@get_stand_comparison');
 Route::get('/dynamic_change/{ip}', 'APIController@fetch');
