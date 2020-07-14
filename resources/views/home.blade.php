@@ -121,6 +121,7 @@
           <li><a href="#portofolio">Portofolio</a></li>
           <li><a href="#me">Detail About Me</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="/admin"> | Admin Panel</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
